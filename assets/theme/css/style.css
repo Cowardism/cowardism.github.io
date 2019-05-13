@@ -1474,7 +1474,7 @@ ul, ol, li {
 
 /* 13. PAGE HEADER */
 
-.page_head {background-size: cover; padding: 160px 0 80px;}
+.page_head {background-size: cover; padding: 4em 0 2em;}
 .page_head h1 {color: white; margin: 0 0 10px; font-style: normal; text-align: left;}
 .page_head h3 {color: white; font-size: 40px; line-height: 50px; font-weight: 700; margin: 0 0 10px; font-style: normal; text-align: left;}
 .page_head h5 {font-size: 17px; line-height: 27px; font-weight: 700; margin: 0 0 10px; font-style: normal; text-align: left;}
@@ -5472,7 +5472,7 @@ b, strong {font-weight: bold;}
   .navbar-dropdown.navbar-short .navbar-logo img {height: auto;}
 }
 @media (max-width: 480px) {
-  .menu1 .link {font-size: 25px !important; line-height: 25px;}
+  .menu1 .link {font-size: 25px !important; line-height: 25px; margin: 1px; color: black !important;}
   .menu1 .navbar-nav .nav-item {margin: 0 0 15px;}
 }
 @media (max-height: 600px) and (max-width: 992px) {
