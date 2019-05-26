@@ -936,6 +936,22 @@
 }
 
 
+.reversed-colour {
+    color: black !important;
+}
+
+
+.reversed-colour h3 {
+    color: black !important;
+}
+
+.reversed-colour p {
+    color: black !important;
+}
+
+.reversed-colour li {
+    list-style: square;
+}
 
     @media (max-width: 991px) {
         .mbr-header--reduce .mbr-header__text {
@@ -1286,7 +1302,7 @@ Author:
         color: #777777 !important;
     }
 
-    // .text-primary {
+    /*// .text-primary {
         // color: #29d9c2 !important;
         //
     }
@@ -1372,7 +1388,7 @@ Author:
     // a.text-black:focus {
         // color: #0c0c0c !important;
         //
-    }
+    }*/
 
     .navbar-nav a {
         letter-spacing: 1px;
@@ -6073,11 +6089,14 @@ textarea.form-control { height: 120px;}
 
 .dictionary-quote {
     align-content: center;
-    margin: 0px 5%;
+    margin: 0px 10%;
     background-color: white;
     color: black;
     padding: 7px 7px;
     border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 
 
