@@ -1577,7 +1577,7 @@ Author:
 
         .page_head p {
             color: white;
-            text-align: left;
+            text-align: justify;
         }
 
         .page_head blockquote {
