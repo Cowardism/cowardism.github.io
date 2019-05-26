@@ -937,17 +937,13 @@
 
 
 .reversed-colour {
-    color: black !important;
+    /*color: black !important;*/
+    background: #304352; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #62594f, #304352); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #62594f, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
-.reversed-colour h3 {
-    color: black !important;
-}
-
-.reversed-colour p {
-    color: black !important;
-}
 
 .reversed-colour li {
     list-style: square;
