@@ -667,7 +667,7 @@ a:hover,
 #menu1-1 .nav-dropdown-sm,
 #menu1-1 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu1-1 .nav-dropdown-sm .dropdown-menu {
-  background: #efede3;
+    background: #d8d7d2;
 }
 #menu1-1 .bg-color.transparent .link {
   color:  white;
