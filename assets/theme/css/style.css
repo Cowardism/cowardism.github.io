@@ -433,13 +433,13 @@
 }
 
 .mbr-overlay {
-  background: #222;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1;
+    /*background: #222;*/
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
 .mbr-overlay ~ *{
   z-index: 2;
@@ -918,20 +918,29 @@
 
 .fixed-background {
     /*background-image: url("../assets/images/facade3-2000x1250.jpg");*/
+}
+
+.background1 {
+    background: #304352; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #62594f, #304352); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #62594f, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../../images/urban-438393_1280_op.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.background1 {
-    background-image: url("../../images/urban-438393_1280.jpg");
-
-}
-
 @media (max-width: 767px) {
     .background1 {
-        background-image: url("../../images/urban-438393_800.jpg");
+        background: #304352; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #62594f, #304352); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #62594f, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-image: url("../../images/urban-438393_800_op.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
 
