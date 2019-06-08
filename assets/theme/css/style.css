@@ -916,15 +916,23 @@
   background-attachment: scroll !important;
 }
 
-.fixed-background {
-    /*background-image: url("../assets/images/facade3-2000x1250.jpg");*/
-}
 
 .background1 {
     background: #304352; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #62594f, #304352); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #62594f, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-image: url("../../images/urban-438393_1280_op.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background2 {
+    background: #304352; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #62594f, #304352); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #62594f, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../../images/desert_1280.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -945,16 +953,20 @@
 }
 
 
-.reversed-colour {
+.gradient-colour {
     /*color: black !important;*/
     background: #304352; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #62594f, #304352); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #62594f, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.reversed-colour {
+    color: black !important;
+    
+}
 
 
-.reversed-colour li {
+.gradient-colour li {
     list-style: square;
 }
 
