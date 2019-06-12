@@ -4819,6 +4819,7 @@ blockquote.pull-right {
             float: right;
             padding: 0;
             margin-right: 15px;
+            margin-left: 15px;
             margin-bottom: 8px;
             background: transparent !important;
             background-image: none;
@@ -5581,7 +5582,7 @@ b, strong {font-weight: bold;}
 .menu1 .link[aria-expanded="true"], .menu4 .link[aria-expanded="true"] {background: inherit !important;}
 .menu1 .dropdown-menu, .menu4 .dropdown-menu {background: rgba(22,22,22,.9) !important;}
 .menu1 .dropdown-item:hover, .menu1 .dropdown-item:focus, .menu4 .dropdown-item:hover, .menu4 .link:focus, .menu4 .dropdown-item:focus {color: #fff !important;}
-.navbar-toggler { width: 15px; z-index: 7000; display: none; position: relative; padding: 0px; line-height: inherit; font-size: 0px; height: 15px;}
+.navbar-toggler { width: 20px; z-index: 7000; display: none; position: relative; padding: 0px; line-height: inherit; font-size: 0px; height: 20px;}
 .navbar-toggler i, .navbar-toggler em {display: inline-block; width: 100%; height: 1px; background: #222; border-radius: 4px; position: relative; transition:all 0.35s ease-out; -webkit-transition:all 0.35s ease-out;}
 .navbar-toggler i:before, .navbar-toggler i:after, .navbar-toggler em:before, .navbar-toggler em:after {content: ''; position: absolute; left: 0px;  width: 100%; height: 1px; background: #222; transition:all 0.35s ease-out; -webkit-transition:all 0.35s ease-out; backface-visibility: hidden;}
 .navbar-toggler i:before, .navbar-toggler em:before {top: -5px;}
