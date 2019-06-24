@@ -6145,10 +6145,16 @@ textarea.form-control { height: 120px;}
     margin-top: 0.5em;
 }
 
+.petition-heading {
+    text-align: left;
+    font-size: x-large;
+    text-decoration: underline;
+    margin-bottom: 0.25em;
+    margin-top: 0.5em;
+}
 
-
-    @media (max-width: 767px) {
-        .dictionary-quote {
+@media (max-width: 767px) {
+    .dictionary-quote {
             align-content: center;
             margin: 0px 5%;
             background-color: white;
